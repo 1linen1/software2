@@ -1,0 +1,14 @@
+/* pages/start_game/start_game.wxss */
+image{
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    width: 80px;
+    height: 60px;
+}
+page{
+    background-color: rgb(226, 65, 65);
+}
+.viewcenter{
+    text-align: center;
+}
