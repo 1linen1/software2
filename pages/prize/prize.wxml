@@ -1,0 +1,15 @@
+<!--pages/prize/prize.wxml-->
+<view class="viewcenter">
+<view>状元</view>
+<input type="text " bindinput="prizeinput1"/>
+<view>榜眼</view>
+<input type="text " bindinput="prizeinput2"/>
+<view>探花</view>
+<input type="text " bindinput="prizeinput3"/>
+<view>进士</view>
+<input type="text " bindinput="prizeinput4"/>
+<view>举人</view>
+<input type="text " bindinput="prizeinput5"/>
+<view>秀才</view>
+<input type="text " bindinput="prizeinput6"/>
+</view>
