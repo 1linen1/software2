@@ -1,0 +1,14 @@
+/* pages/prize/prize.wxss */
+.input{
+    box-sizing: border-box;
+    border-color: black;
+
+    width: auto;
+    height: auto;
+}
+page{
+    background-color: rgb(226, 65, 65);
+}
+.viewcenter{
+    text-align: center;
+}
