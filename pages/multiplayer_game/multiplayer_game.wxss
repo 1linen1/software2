@@ -1,0 +1,7 @@
+/* pages/multiplayer_game/multiplayer_game.wxss */
+page{
+    background-color: rgb(226, 65, 65);
+}
+.viewcenter{
+    text-align: center;
+}
