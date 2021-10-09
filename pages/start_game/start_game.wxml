@@ -1,0 +1,26 @@
+<!--pages/start_game/start_game.wxml-->
+<view>
+    <button size="mini"><navigator url="../lookprize/lookprize">查看奖品</navigator></button>
+    <view>{{this_level}}</view>
+    <view>-----</view>
+<image wx:if="{{num1>0}}" src="../img/{{num1}}.png" mode="aspectFit"></image>
+<image wx:if="{{num2>0}}" src="../img/{{num2}}.png" mode="aspectFit"></image>
+<image wx:if="{{num3>0}}" src="../img/{{num3}}.png" mode="aspectFit"></image>
+<view></view>
+<image wx:if="{{num4>0}}" src="../img/{{num4}}.png" mode="aspectFit"></image>
+<image wx:if="{{num5>0}}" src="../img/{{num5}}.png" mode="aspectFit"></image>
+<image wx:if="{{num6>0}}" src="../img/{{num6}}.png" mode="aspectFit"></image>
+<button bindtap="picesCode1">继续博饼</button>
+<view wx:if="{{turnnum==1}}">轮到{{name1}}</view>
+<view wx:if="{{turnnum==2}}">轮到{{name2}}</view>
+<view wx:if="{{turnnum==3}}">轮到{{name3}}</view>
+<view wx:if="{{turnnum==4}}">轮到{{name4}}</view>
+<view wx:if="{{turnnum==5}}">轮到{{name5}}</view>
+<view wx:if="{{turnnum==6}}">轮到{{name6}}</view>
+<view wx:if="{{turnnum==7}}">轮到{{name7}}</view>
+<view wx:if="{{turnnum==8}}">轮到{{name8}}</view>
+<view class="viewcenter">历史记录</view>
+<view class="viewcenter" wx:for="{{his}}">
+    {{--index}}:{{his[--index]}}
+</view>
+</view>
