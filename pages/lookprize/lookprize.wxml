@@ -1,0 +1,15 @@
+<!--pages/lookprize/lookprize.wxml-->
+<view bindtap="lookp"  class="viewcenter">
+<view>状元</view>
+<view>{{p1}}</view>
+<view>榜眼</view>
+<view>{{p2}}</view>
+<view>探花</view>
+<view>{{p3}}</view>
+<view>进士</view>
+<view>{{p4}}</view>
+<view>举人</view>
+<view>{{p5}}</view>
+<view>秀才</view>
+<view>{{p6}}</view>
+</view>
