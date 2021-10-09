@@ -1,0 +1,7 @@
+/* pages/lookprize/lookprize.wxss */
+page{
+    background-color: rgb(226, 65, 65);
+}
+.viewcenter{
+    text-align: center;
+}
