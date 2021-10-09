@@ -1,0 +1,21 @@
+<!--pages/multiplayer_game/multiplayer_game.wxml-->
+<view class="viewcenter">
+<button><navigator url="../prize/prize">设置奖品</navigator></button>
+<view>输入玩家1 id</view>
+<input type="text " bindinput="handleinput1"/>
+<view>输入玩家2 id</view>
+<input type="text " bindinput="handleinput2"/>
+<view>输入玩家3 id</view>
+<input type="text " bindinput="handleinput3"/>
+<view>输入玩家4 id</view>
+<input type="text " bindinput="handleinput4"/>
+<view>输入玩家5 id</view>
+<input type="text " bindinput="handleinput5"/>
+<view>输入玩家6 id</view>
+<input type="text " bindinput="handleinput6"/>
+<view>输入玩家7 id</view>
+<input type="text " bindinput="handleinput7"/>
+<view>输入玩家8 id</view>
+<input type="text " bindinput="handleinput8"/>
+<button><navigator url="../start_game/start_game">开始游戏</navigator></button>
+</view>
